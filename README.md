@@ -1,11 +1,7 @@
 # testcafe-reporter-trx
 [![Build Status](https://travis-ci.org/keyrun/testcafe-reporter-trx.svg)](https://travis-ci.org/keyrun/testcafe-reporter-trx)
 
-This is the **trx** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe).
-
-<p align="center">
-    <img src="https://raw.github.com/keyrun/testcafe-reporter-trx/master/media/preview.png" alt="preview" />
-</p>
+This is the **trx** reporter plugin for [TestCafe](http://devexpress.github.io/testcafe). This uses the node-trx package to create the report in visual studio test report format.
 
 ## Install
 
@@ -32,6 +28,3 @@ testCafe
     .reporter('trx') // <-
     .run();
 ```
-
-## Author
- 
