@@ -4,8 +4,7 @@
   "description": "trx TestCafe reporter plugin.",
   "repository": "https://github.com/keyrun/testcafe-reporter-trx",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "keyrun"
   },
   "main": "lib/index",
   "files": [
@@ -14,7 +13,8 @@
   "scripts": {
     "test": "gulp test",
     "publish-please": "publish-please",
-    "prepublish": "publish-please guard"
+    "prepublish": "publish-please guard",
+    "preview": "gulp preview"
   },
   "keywords": [
     "testcafe",
@@ -34,5 +34,8 @@
     "publish-please": "^2.1.4",
     "read-file-relative": "^1.2.0",
     "testcafe": "^0.2.0-alpha"
+  },
+  "dependencies": {
+    "node-trx": "^0.8.0"
   }
 }

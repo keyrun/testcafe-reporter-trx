@@ -1,1 +1,131 @@
-TODO
+<?xml version="1.0"?>
+<TestRun xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" id="99b0541a-46a2-496e-a60a-d964bf5f91ab" name="kipaul@kipauld2 1970-01-01 00:15:25" runUser="kipaul">
+  <Times creation="1970-01-01T00:15:25.000Z" queuing="1970-01-01T00:15:25.000Z" start="1970-01-01T00:00:00.000Z" finish="1970-01-01T00:15:25.000Z"/>
+  <TestSettings name="Default Test Settings" id="ce1a4cfb-64fa-4d63-8815-e9984737a62c"/>
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="5" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest id="6fce79bb-602d-435f-9cc9-32ccb7215360" name="test &quot;First test in first fixture&quot; in fixture &quot;First fixture&quot;">
+      <Execution id="1cf24a83-8a88-49f0-96ef-c3bfdeff667e"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="ccb69836-d428-4795-b410-2d11c795ff9b" name="test &quot;Second test in first fixture&quot; in fixture &quot;First fixture&quot;">
+      <Execution id="3b9dbe08-375f-4db5-b14a-59fb22c2c426"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="6875ef5d-f9d9-4499-afb5-31969058723a" name="test &quot;Third test in first fixture&quot; in fixture &quot;First fixture&quot;">
+      <Execution id="d26886ab-6144-4d82-bac5-51964e6825f6"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="b8ee7284-b928-4088-8fee-72a21488a9c8" name="test &quot;First test in second fixture&quot; in fixture &quot;Second fixture&quot;">
+      <Execution id="34250000-b06c-4f20-95c4-27b20b0581d6"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="97cc3bee-20c8-4b37-b79b-1443abdc7bf7" name="test &quot;Second test in second fixture&quot; in fixture &quot;Second fixture&quot;">
+      <Execution id="d191f74a-af12-4f02-8bae-7a15632f1e2e"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="fe69d768-bf13-4770-83dc-31c8853a56ec" name="test &quot;Third test in second fixture&quot; in fixture &quot;Second fixture&quot;">
+      <Execution id="8634afe3-d8b9-4f01-827a-e092cdcfd21b"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="a55754f9-0083-4cb7-87f5-2f78e96f7218" name="test &quot;First test in third fixture&quot; in fixture &quot;Third fixture&quot;">
+      <Execution id="c408b12d-8660-45a4-a0c0-4884d679bba5"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList id="8c84fa94-04c1-424b-9868-57a2d4851a1d" name="Results Not in a List"/>
+    <TestList id="19431567-8539-422a-85d7-44ee4e166bda" name="All Loaded Results"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6fce79bb-602d-435f-9cc9-32ccb7215360" executionId="1cf24a83-8a88-49f0-96ef-c3bfdeff667e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="ccb69836-d428-4795-b410-2d11c795ff9b" executionId="3b9dbe08-375f-4db5-b14a-59fb22c2c426" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="6875ef5d-f9d9-4499-afb5-31969058723a" executionId="d26886ab-6144-4d82-bac5-51964e6825f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="b8ee7284-b928-4088-8fee-72a21488a9c8" executionId="34250000-b06c-4f20-95c4-27b20b0581d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="97cc3bee-20c8-4b37-b79b-1443abdc7bf7" executionId="d191f74a-af12-4f02-8bae-7a15632f1e2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="fe69d768-bf13-4770-83dc-31c8853a56ec" executionId="8634afe3-d8b9-4f01-827a-e092cdcfd21b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a55754f9-0083-4cb7-87f5-2f78e96f7218" executionId="c408b12d-8660-45a4-a0c0-4884d679bba5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="6fce79bb-602d-435f-9cc9-32ccb7215360" testName="test &quot;First test in first fixture&quot; in fixture &quot;First fixture&quot;" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="kipauld2" outcome="Passed" endTime="1970-01-01T00:01:14.000Z" duration="00:01:14.000" executionId="1cf24a83-8a88-49f0-96ef-c3bfdeff667e" relativeResultsDirectory="1cf24a83-8a88-49f0-96ef-c3bfdeff667e"/>
+    <UnitTestResult testId="ccb69836-d428-4795-b410-2d11c795ff9b" testName="test &quot;Second test in first fixture&quot; in fixture &quot;First fixture&quot;" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="kipauld2" outcome="Failed" endTime="1970-01-01T00:01:14.000Z" duration="00:01:14.000" executionId="3b9dbe08-375f-4db5-b14a-59fb22c2c426" relativeResultsDirectory="3b9dbe08-375f-4db5-b14a-59fb22c2c426">
+      <Output>
+        <StdOut/>
+        <ErrorInfo>
+          <Message>test "Second test in first fixture" in fixture "First fixture" encountered errors</Message>
+          <StackTrace>1) Error on page "http://example.org":
+
+   Some error
+
+   Browser: Chrome 41.0.2227 / Mac OS X 10.10.1
+   Screenshot: /screenshots/1445437598847/errors
+
+      1 |var createCallsiteRecord = require('callsite-record');
+      2 |
+      3 |function someFunc () {
+    &gt; 4 |    throw new Error('Hey ya!');
+      5 |}
+      6 |
+      7 |try {
+      8 |    someFunc();
+      9 |}
+
+      at someFunc (some-file:1:1)
+      at Object.&lt;anonymous&gt; (some-file:1:1)
+      at Object.&lt;anonymous&gt; (some-file:1:1)&#xD;
+2) The specified selector does not match any element in the DOM tree.
+
+   Browser: Firefox 47 / Mac OS X 10.10.1
+
+      1 |var createCallsiteRecord = require('callsite-record');
+      2 |
+      3 |function someFunc () {
+    &gt; 4 |    throw new Error('Hey ya!');
+      5 |}
+      6 |
+      7 |try {
+      8 |    someFunc();
+      9 |}
+
+      at someFunc (some-file:1:1)
+      at Object.&lt;anonymous&gt; (some-file:1:1)
+      at Object.&lt;anonymous&gt; (some-file:1:1)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult testId="6875ef5d-f9d9-4499-afb5-31969058723a" testName="test &quot;Third test in first fixture&quot; in fixture &quot;First fixture&quot;" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="kipauld2" outcome="Passed" endTime="1970-01-01T00:01:14.000Z" duration="00:01:14.000" executionId="d26886ab-6144-4d82-bac5-51964e6825f6" relativeResultsDirectory="d26886ab-6144-4d82-bac5-51964e6825f6"/>
+    <UnitTestResult testId="b8ee7284-b928-4088-8fee-72a21488a9c8" testName="test &quot;First test in second fixture&quot; in fixture &quot;Second fixture&quot;" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="kipauld2" outcome="Passed" endTime="1970-01-01T00:01:14.000Z" duration="00:01:14.000" executionId="34250000-b06c-4f20-95c4-27b20b0581d6" relativeResultsDirectory="34250000-b06c-4f20-95c4-27b20b0581d6"/>
+    <UnitTestResult testId="97cc3bee-20c8-4b37-b79b-1443abdc7bf7" testName="test &quot;Second test in second fixture&quot; in fixture &quot;Second fixture&quot;" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="kipauld2" outcome="Passed" endTime="1970-01-01T00:01:14.000Z" duration="00:01:14.000" executionId="d191f74a-af12-4f02-8bae-7a15632f1e2e" relativeResultsDirectory="d191f74a-af12-4f02-8bae-7a15632f1e2e"/>
+    <UnitTestResult testId="fe69d768-bf13-4770-83dc-31c8853a56ec" testName="test &quot;Third test in second fixture&quot; in fixture &quot;Second fixture&quot;" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="kipauld2" outcome="Passed" endTime="1970-01-01T00:00:00.000Z" duration="00:00:00.000" executionId="8634afe3-d8b9-4f01-827a-e092cdcfd21b" relativeResultsDirectory="8634afe3-d8b9-4f01-827a-e092cdcfd21b"/>
+    <UnitTestResult testId="a55754f9-0083-4cb7-87f5-2f78e96f7218" testName="test &quot;First test in third fixture&quot; in fixture &quot;Third fixture&quot;" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="kipauld2" outcome="Failed" endTime="1970-01-01T00:01:14.000Z" duration="00:01:14.000" executionId="c408b12d-8660-45a4-a0c0-4884d679bba5" relativeResultsDirectory="c408b12d-8660-45a4-a0c0-4884d679bba5">
+      <Output>
+        <StdOut/>
+        <ErrorInfo>
+          <Message>test "First test in third fixture" in fixture "Third fixture" encountered errors</Message>
+          <StackTrace>1) - Error in beforeEach hook -
+   The specified selector does not match any element in the DOM tree.
+
+   Browser: Firefox 47 / Mac OS X 10.10.1
+
+      1 |var createCallsiteRecord = require('callsite-record');
+      2 |
+      3 |function someFunc () {
+    &gt; 4 |    throw new Error('Hey ya!');
+      5 |}
+      6 |
+      7 |try {
+      8 |    someFunc();
+      9 |}
+
+      at someFunc (some-file:1:1)
+      at Object.&lt;anonymous&gt; (some-file:1:1)
+      at Object.&lt;anonymous&gt; (some-file:1:1)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
