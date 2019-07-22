@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-trx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "trx TestCafe reporter plugin.",
   "repository": "https://github.com/keyrun/testcafe-reporter-trx",
   "author": {
