@@ -26,7 +26,7 @@ export default function () {
             const hasErr = !!testRunInfo.errs.length;
             let result = hasErr ? `Failed` : `Passed`;
 
-            result = testRunInfo.skipped ? 'Skipped' : result;
+            result = testRunInfo.skipped ? 'NotExecuted' : result;
             const testResults = {};
 
             testResults.name = `test "${name}" in fixture "${this.fixtureName}"`;
