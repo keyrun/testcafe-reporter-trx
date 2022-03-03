@@ -36,6 +36,6 @@
     "testcafe": "^0.2.0-alpha"
   },
   "dependencies": {
-    "node-trx": "^0.8.0"
+    "node-trx": "^0.9.4"
   }
 }
